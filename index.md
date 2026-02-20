@@ -1,16 +1,21 @@
-Sara Molas Medina, PhD
-**Researcher working on mechanistic interpretability and representation learning, with a background in computational neuroscience and biology.**
 
----
+**ML Researcher working on mechanistic interpretability, with a background in computational neuroscience and biology.**
 
-I study how complex systems internally represent structure.
+I study how complex systems represent information
 
-My training began in Biomedical Sciences and Systems & Computational Neuroscience, where I analyzed high-dimensional neural recordings to understand how spatial and contextual information is encoded in the brain.
+**Background**
+- Biomedical Sciences → Systems & Computational Neuroscience  
+- Analyzed high-dimensional neural recordings  
+- Studied how spatial and contextual information is encoded by biological neurons
 
-More recently, I have applied this representational lens to artificial neural networks. Through mechanistic interpretability research, including sparse autoencoders, ablation studies, and training-dynamics analysis, I've investigated how representations emerge and interact in deep learning systems.
+**Current focus**
+- Mechanistic interpretability of deep learning models  
+- Sparse autoencoders, ablations, training dynamics  
+- Understanding how features emerge and interact in artificial neural networks
 
-I am particularly interested in bridging biological and artificial systems: developing tools that make large-scale models more transparent, and applying mechanistic analysis to models trained on biological data. My goal is to make foundation models more interpretable and scientifically useful.
-
----
+**Long-term direction**
+- Bridge biological and artificial systems
+- Make large-scale models more transparent  
+- Apply interpretability to foundation models in biology
 
 [Explore my research](research) · [My story(CV)](assets/pdf/CV_MolasMedina.pdf) · [Reach out!](contact) 
