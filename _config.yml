@@ -1,0 +1,16 @@
+
+theme: just-the-docs
+title: Sara Molas Medina, PhD
+description:  Computational Neuroscience × Biomedical Sciences × Mechanistic Interpretability x Deep Learning
+color_scheme: light
+search_enabled: false
+
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research
+  - title: CV
+    url: /assets/pdf/Sara_Molas_CV.pdf
+  - title: Contact
+    url: /contact
