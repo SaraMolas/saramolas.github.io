@@ -1,9 +1,6 @@
----
-layout: default
-title: Sara Molas Medina, PhD
----
-
+Sara Molas Medina, PhD
 **Computational Neuroscience x Mechanistic Interpretability x Deep Learning x Biomedical Sciences**
+---
 
 I am a researcher trained in Biomedical Sciences and Computational Neuroscience, now focusing on mechanistic interpretability of deep learning models.
 
