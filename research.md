@@ -1,4 +1,6 @@
-# Various research projects I've worked on over the years
+# My research trajectory
+
+My work spans systems neuroscience and mechanistic interpretability. Unified by an interest in how structured representations emerge in complex systems, I've worked on a range of research projects from analyzing spatial and contextual encoding in hippocampal circuits in the brain to probing feature superposition and training dynamics in neural networks.
 
 ## [Applying SAEs to biological neurons](https://openreview.net/pdf?id=cPpMl7Y2y3)
 
