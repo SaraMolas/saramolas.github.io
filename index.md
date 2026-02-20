@@ -5,8 +5,6 @@ title: Sara Molas Medina, PhD
 
 **Computational Neuroscience x Mechanistic Interpretability x Deep Learning x Biomedical Sciences**
 
-Currently based in London, UK · Email: <saramolas18@gmail.com>
-
 I am a researcher trained in Biomedical Sciences and Computational Neuroscience, now focused on mechanistic interpretability of deep learning models.
 
 My work sits at a rare intersection:
@@ -17,4 +15,4 @@ My work sits at a rare intersection:
 
 I am particularly interested in making large models trained on biological data more transparent, reliable, and scientifically meaningful.
 
-[Read my research →](research) · [CV](assets/CV_MolasMedina.pdf) · [Reach out!](contact) 
+[Read my research →](research) · [CV]({{ 'assets/pdf/Sara_Molas_CV.pdf' | relative_url }}) · [Reach out!](contact) 
