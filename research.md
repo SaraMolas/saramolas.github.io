@@ -1,6 +1,6 @@
 # Various research projects I've worked on over the years
 
-## [Applying SAEs to biological neurons]((https://openreview.net/pdf?id=cPpMl7Y2y3)
+## [Applying SAEs to biological neurons](https://openreview.net/pdf?id=cPpMl7Y2y3)
 
 NeurIPS 2025 – Data on the Brain & Mind Workshop
 
