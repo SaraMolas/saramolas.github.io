@@ -14,7 +14,7 @@ NeurIPS 2025 - Mechanistic Interpretability Workshop
 
 When we benchmark models, performance alone doesn’t guarantee we understand how they compute. We need mechanistic clarity so that interpretations reflect real internal structure, not artifacts. We analyzed a benchmark toy model of Compressed Computation previously thought to implement many functions via superposition, decomposing its training objective into computation and noise-induced mixing components. The model’s apparent advantage comes from a noise-driven mixing effect, not true superposition; when the mixing term is removed, performance drops and a simple baseline based on the mixing term reproduces the behavior.
 
-## Place Cells Distinguish Visually Identical Rooms (how does GPS of the brain know where it is?)
+## Place Cells Distinguish Visually Identical Rooms
 
 During my PhD, I studied how hippocampal “place cells” (GPS neurons) represent space in a virtual environment composed of four rooms arranged A–B–B–C, where the two middle rooms were visually identical but located in different positions in the environment.
 
