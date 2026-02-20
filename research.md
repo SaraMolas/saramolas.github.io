@@ -14,13 +14,33 @@ NeurIPS 2025 - Mechanistic Interpretability Workshop
 
 When we benchmark models, performance alone doesn’t guarantee we understand how they compute. We need mechanistic clarity so that interpretations reflect real internal structure, not artifacts. We analyzed a benchmark toy model of Compressed Computation previously thought to implement many functions via superposition, decomposing its training objective into computation and noise-induced mixing components. The model’s apparent advantage comes from a noise-driven mixing effect, not true superposition; when the mixing term is removed, performance drops and a simple baseline based on the mixing term reproduces the behavior.
 
-## Attention affects the brain's GPS
+## Place Cells Distinguish Visually Identical Rooms (how does GPS of the brain know where it is?)
 
-## GPS neurons that distinguish identical rooms
+During my PhD, I studied how hippocampal “place cells” (GPS neurons) represent space in a virtual environment composed of four rooms arranged A–B–B–C, where the two middle rooms were visually identical but located in different positions in the environment.
 
-## Biological neurons that count rooms
+The central question was whether neurons encode only local visual information, or whether they also incorporate broader spatial context.
 
+Using spatial correlation analyses and a Bayesian neural decoder, I found that while some neurons showed identical activity patterns in the two visually identical rooms, a substantial subset distinguished between them. These neurons were selectively active in only one of the two rooms, or shifted their active location across rooms, indicating sensitivity to global position rather than just visual input.
 
+These results show that hippocampal spatial representations integrate both local sensory cues and broader environmental context.
+
+## Biological neurons that "count" rooms
+
+In the same multi-room virtual task, I identified neurons that were active at corresponding positions across all four rooms, despite differences in room identity. Rather than encoding the uniqueness of each room, these cells appeared to track structural regularities across repeated segments of the environment.
+
+Interestingly, many of these neurons fired in similar positions across rooms but with different activity levels, suggesting that they simultaneously encoded local spatial features and global task structure.
+
+This pattern resembles previously reported “lap-counting” cells in sequential navigation tasks, and supports the idea that hippocampal representations can reflect abstract environmental structure not just physical location.
+
+## Attention modulates spatial representations
+
+While analyzing place cell recordings, I encountered sessions in which spatial tuning appeared unusually unstable — contradicting decades of robust findings in rodent navigation research.
+
+Further behavioral analysis revealed a key difference: in these sessions, mice were disengaged from the task. They ran more slowly and failed to lick in the reward zone, indicating reduced motivation. Unlike real-world navigation tasks, virtual environments allow animals to disengage without physical consequences (e.g., hitting walls), introducing a new source of variability.
+
+I developed a machine learning classifier that used early-session behavioral features to predict disengagement, allowing us to detect low-quality sessions in real time and avoid collecting unusable data.
+
+This work highlights how cognitive state — particularly attention and engagement — shapes the stability of neural representations, and introduced a practical solution for improving data quality in VR-based experiments.
 
 
 [← Back to home](/)
