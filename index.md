@@ -12,4 +12,4 @@ My work sits at a rare intersection:
 
 I am particularly interested in making large models trained on biological data more transparent, reliable, and scientifically meaningful.
 
-[Explore my research](research) · [My story(CV)](assets/pdf/CV_MolasMedina.pdf) ·· [Reach out!](contact) 
+[Explore my research](research) · [My story(CV)](assets/pdf/CV_MolasMedina.pdf) · [Reach out!](contact) 
