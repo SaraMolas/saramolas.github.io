@@ -18,4 +18,4 @@ I study how complex systems represent information
 - Make large-scale models more transparent  
 - Apply interpretability to foundation models in biology
 
-[Explore my research](research) · [My story(CV)](assets/pdf/CV_MolasMedina.pdf) · [Reach out!](contact) 
+[Explore my research](research) · [My story(CV)](assets/CV_MolasMedina.pdf) · [Reach out!](contact) 
