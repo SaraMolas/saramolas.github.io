@@ -1,0 +1,9 @@
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research
+  - title: CV
+    url: /assets/pdf/Sara_Molas_CV.pdf
+  - title: Contact
+    url: /contact
