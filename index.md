@@ -1,15 +1,15 @@
 
-Focused on understanding how structured representations emerge in biological and artificial systems.
+Understanding how structured representations emerge in biological and artificial systems.
 
 **Background**
 - Biomedical Sciences → Systems & Computational Neuroscience  
-- Analyzed high-dimensional neural recordings  
+- Analyzed high-dimensional neural data
 - Studied how spatial and contextual information is encoded by biological neurons
 
 **Current focus**
 - Mechanistic interpretability of deep learning models  
-- Sparse autoencoders, ablations, training dynamics  
-- Understanding how features emerge and interact in artificial neural networks
+- Sparse autoencoders, ablation experiments, training dynamics  
+- Understanding how feature representation in artificial neural networks
 
 **Long-term direction**
 - Bridge biological and artificial systems
