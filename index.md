@@ -16,4 +16,4 @@ Understanding how structured representations emerge in biological and artificial
 - Make large-scale models more transparent  
 - Apply interpretability to foundation models in biology
 
-[Explore my research](research) · [My story(CV)](assets/CV_MolasMedina.pdf) · [Reach out!](contact) 
+<saramolas18@gmail.com>  · [Explore my research](research) · [My story(CV)](assets/CV_MolasMedina.pdf) · [Find me](contact) 
