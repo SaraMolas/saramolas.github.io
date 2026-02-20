@@ -15,4 +15,4 @@ My work sits at a rare intersection:
 
 I am particularly interested in making large models trained on biological data more transparent, reliable, and scientifically meaningful.
 
-[Explore my research](research) · [My story(CV)]({{ 'assets/pdf/Sara_Molas_CV.pdf' | relative_url }}) · [Concepts I've explored](concepts) · [Reach out!](contact) 
+[Explore my research](research) · [My story(CV)](assets/pdf/CV_MolasMedina.pdf) ·· [Reach out!](contact) 
