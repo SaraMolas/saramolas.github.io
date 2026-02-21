@@ -16,4 +16,7 @@ Understanding how structured representations emerge in biological and artificial
 - Make large-scale models more transparent  
 - Apply interpretability to foundation models in biology
 
-<saramolas18@gmail.com>  · [Explore my research](research) · [My story(CV)](assets/CV_MolasMedina.pdf) · [Find me](contact) 
+Currently based in London, UK. 
+Email: <saramolas18@gmail.com> 
+
+[Explore my research](research) · [My story(CV)](assets/CV_MolasMedina.pdf) · [Find me](contact) 
