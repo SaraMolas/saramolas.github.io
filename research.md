@@ -9,6 +9,7 @@ NeurIPS 2025 – Data on the Brain & Mind Workshop
 We introduced NLDisco, a sparse autoencoder-based pipeline to uncover interpretable latent structure in high-dimensional neural recordings. This approach encourages latent units to align with meaningful features in the data, making it easier to link neural activity to behavior or experimental variables. Across synthetic and real datasets, NLDisco recovers clearer, more interpretable latent features than many traditional embedding methods.
 
 <img src="assets/SAE-BioNeuro.png" style="width:100%; max-width:740px;">
+
 *An overview of sparse encoder–decoder architectures used to uncover interpretable latent structure: basic sparse encoding (b), hierarchical nested latent segmentation (c), and the addition of temporal transformer blocks for sequence modeling (d).*
 
 ## [Compressed computation is not computation in superposition](https://openreview.net/pdf?id=iVeOIeHDP1)
@@ -18,6 +19,7 @@ NeurIPS 2025 - Mechanistic Interpretability Workshop
 When we benchmark models, performance alone doesn’t guarantee we understand how they compute. We need mechanistic clarity so that interpretations reflect real internal structure, not artifacts. We analyzed a benchmark toy model of Compressed Computation previously thought to implement many functions via superposition, decomposing its training objective into computation and noise-induced mixing components. The model’s apparent advantage comes from a noise-driven mixing effect, not true superposition; when the mixing term is removed, performance drops and a simple baseline based on the mixing term reproduces the behavior.
 
 <img src="assets/CC-not-CiS.png" style="width:100%; max-width:740px;">
+
 *Original model architecture from Braun et al. [2025] on the left, and our simpler equivalent model on the right. The labels for our (new) model are $yi = ReLU(xi) + P
 j Mijxi$. The matrix $M$ mixes other inputs $xj$ into the label $yi$. Thus the MLP needs to learn both the ReLU term, and the mixing term.*
 
@@ -32,6 +34,7 @@ Using spatial correlation analyses and a Bayesian neural decoder, I found that w
 These results show that hippocampal spatial representations integrate both local sensory cues and broader environmental context.
 
 <img src="assets/track_spikes_aesthetic.gif" style="width:100%; max-width:740px;">
+
 *Illustrative example of spiking activity in the A–B–B–C virtual track. Each row shows spikes from one example neuron as the mouse moves along the track. While some cells fire similarly in both visually identical B rooms, others differentiate between them, reflecting sensitivity to global position rather than purely local cues.*
 
 ## Biological neurons that "count" rooms
