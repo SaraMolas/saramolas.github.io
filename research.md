@@ -45,6 +45,10 @@ Interestingly, many of these neurons fired in similar positions across rooms but
 
 This pattern resembles previously reported “lap-counting” cells in sequential navigation tasks, and supports the idea that hippocampal representations can reflect abstract environmental structure not just physical location.
 
+<img src="assets/counting_rooms.png" style="width:100%; max-width:740px;">
+
+*Each neuron fires at a similar relative position within every room, but with different activity levels across rooms. This pattern suggests that these cells encode both local spatial position and the repeated structure of the environment.*
+
 ## Attention modulates spatial representations
 
 While analyzing place cell recordings, I encountered sessions in which spatial tuning appeared unusually unstable — contradicting decades of robust findings in rodent navigation research.
