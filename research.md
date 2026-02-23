@@ -59,5 +59,8 @@ I developed a machine learning classifier that used early-session behavioral fea
 
 This work highlights how cognitive state — particularly attention and engagement — shapes the stability of neural representations, and introduced a practical solution for improving data quality in VR-based experiments.
 
+<img src="assets/attention_state_6panel.gif" style="width:100%; max-width:740px;">
+
+*In engaged trials (top: fast running and licking), the neuron fires reliably at a specific location; when the animal disengages, spiking becomes scattered and spatial structure breaks down. This reveals how cognitive state directly shapes the stability of place cell representations.*
 
 [← Back to home](/)
