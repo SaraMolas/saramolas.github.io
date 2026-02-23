@@ -20,8 +20,7 @@ When we benchmark models, performance alone doesn’t guarantee we understand ho
 
 <img src="assets/CC-not-CiS.png" style="width:100%; max-width:740px;">
 
-*Original model architecture from Braun et al. [2025] on the left, and our simpler equivalent model on the right. The labels for our (new) model are $yi = ReLU(xi) + P
-j Mijxi$. The matrix $M$ mixes other inputs $xj$ into the label $yi$. Thus the MLP needs to learn both the ReLU term, and the mixing term.*
+*Original model architecture from Braun et al. [2025] on the left, and our simpler equivalent model on the right. The labels for our (new) model are y = ReLU(x) + Mx. The matrix M mixes other inputs x_j into the label y_i. Thus the MLP needs to learn both the ReLU term, and the mixing term.*
 
 ## Place Cells Distinguish Visually Identical Rooms
 
