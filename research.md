@@ -24,6 +24,9 @@ Using spatial correlation analyses and a Bayesian neural decoder, I found that w
 
 These results show that hippocampal spatial representations integrate both local sensory cues and broader environmental context.
 
+![](assets/track_spikes.gif)
+*Illustrative example of spiking activity in the A–B–B–C virtual track. Each row shows spikes from one example neuron as the mouse moves along the track. While some cells fire similarly in both visually identical B rooms, others differentiate between them, reflecting sensitivity to global position rather than purely local cues.*
+
 ## Biological neurons that "count" rooms
 
 In the same multi-room virtual task, I identified neurons that were active at corresponding positions across all four rooms, despite differences in room identity. Rather than encoding the uniqueness of each room, these cells appeared to track structural regularities across repeated segments of the environment.
