@@ -9,7 +9,7 @@ Understanding how structured representations emerge in biological and artificial
 **Current focus**
 - Mechanistic interpretability of deep learning models  
 - Sparse autoencoders, ablation experiments, training dynamics  
-- Understanding how feature representation in artificial neural networks
+- Understanding feature representation in artificial neural networks
 
 **Long-term direction**
 - Bridge biological and artificial systems
