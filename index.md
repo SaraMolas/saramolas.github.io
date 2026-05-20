@@ -2,19 +2,18 @@
 Understanding how structured representations emerge in biological and artificial systems.
 
 **Background**
-- Biomedical Sciences → Systems & Computational Neuroscience  
+- BSc in Biomedical Sciences → PhD in Systems & Computational Neuroscience  
 - Analyzed high-dimensional neural data
 - Studied how spatial and contextual information is encoded by biological neurons
 
 **Current focus**
 - Mechanistic interpretability of deep learning models  
-- Sparse autoencoders, ablation experiments, training dynamics  
+- Compositional generalization in diffusion models
 - Understanding feature representation in artificial neural networks
 
 **Long-term direction**
 - Bridge biological and artificial systems
 - Make large-scale models more transparent  
-- Apply interpretability to foundation models in biology
 
 Currently based in London, UK. 
 Email: <saramolas18@gmail.com> 
