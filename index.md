@@ -63,7 +63,6 @@ My background is in systems and computational neuroscience, where I completed a 
 **Latest news**
 <section class="news-box">
   <div class="news-header">
-    <span>Newest first</span>
   </div>
 
   <div class="news-scroll">
