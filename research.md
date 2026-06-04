@@ -22,7 +22,7 @@ When we benchmark models, performance alone doesn’t guarantee we understand ho
 
 *Original model architecture from Braun et al. [2025] on the left, and our simpler equivalent model on the right. The labels for our (new) model are y = ReLU(x) + Mx. The matrix M mixes other inputs x_j into the label y_i. Thus the MLP needs to learn both the ReLU term, and the mixing term.*
 
-## Place Cells Distinguish Visually Identical Rooms
+## [Place Cells Distinguish Visually Identical Rooms](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851)
 
 During my PhD, I studied how hippocampal “place cells” (GPS neurons) represent space in a virtual environment composed of four rooms arranged A–B–B–C, where the two middle rooms were visually identical but located in different positions in the environment.
 
@@ -36,7 +36,7 @@ These results show that hippocampal spatial representations integrate both local
 
 *Illustrative example of spiking activity in the A–B–B–C virtual track. Each row shows spikes from one example neuron as the mouse moves along the track. While some cells fire similarly in both visually identical B rooms, others differentiate between them, reflecting sensitivity to global position rather than purely local cues.*
 
-## Biological neurons that "count" rooms
+## [Biological neurons that "count" rooms](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851)
 
 In the same multi-room virtual task, I identified neurons that were active at corresponding positions across all four rooms, despite differences in room identity. Rather than encoding the uniqueness of each room, these cells appeared to track structural regularities across repeated segments of the environment.
 
@@ -48,7 +48,7 @@ This pattern resembles previously reported “lap-counting” cells in sequentia
 
 *Each neuron fires at a similar relative position within every room, but with different activity levels across rooms. This pattern suggests that these cells encode both local spatial position and the repeated structure of the environment.*
 
-## Attention modulates spatial representations
+## [Attention modulates spatial representations](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851)
 
 While analyzing place cell recordings, I encountered sessions in which spatial tuning appeared unusually unstable — contradicting decades of robust findings in rodent navigation research.
 
