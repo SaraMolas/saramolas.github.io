@@ -22,12 +22,12 @@
 }
 
 .news-scroll {
-  max-height: 160px;
+  max-height: 180px;
   overflow-y: auto;
   padding: 1rem 1.1rem;
   border: 1px solid #ddd;
   border-radius: 14px;
-  background: #fafafa;
+  background: #f7f7fb;
 }
 
 .news-item {
@@ -68,7 +68,7 @@ My background is in systems and computational neuroscience, where I completed a 
 
   <div class="news-scroll">
     <article class="news-item">
-      <time datetime="2026-06">June 2026</time>
+      <time datetime="2026-04">April 2026</time>
       <p>
         I received research funding from <strong>Coefficient Giving</strong> to support my independent research on mechanistic interpretability and compositional generalization.
       </p>
