@@ -76,7 +76,7 @@ My background is in systems and computational neuroscience, where I completed a 
     <article class="news-item">
       <time datetime="2026-04">April 2026</time>
       <p>
-        I received research funding from <strong>Coefficient Giving</strong> to support my independent research on mechanistic interpretability and compositional generalization.
+        I received funding from <strong>Coefficient Giving</strong> to support my career transition period into AI safety.
       </p>
     </article>
 
