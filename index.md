@@ -84,10 +84,6 @@ My background is in systems and computational neuroscience, where I completed a 
   </div>
 </section>
 
-**Background**
-- PhD in Systems & Computational Neuroscience  
-- Analyzed high-dimensional neural data
-
 **Current focus**
 - Mechanistic interpretability of deep learning models  
 - Compositional generalization in diffusion models
