@@ -77,7 +77,7 @@ My background is in systems and computational neuroscience, where I completed a 
     <article class="news-item">
       <time datetime="2026-06">June 2026</time>
       <p>
-        I will present a poster on <strong>sparse autoencoders for neural data</strong> at the <strong>NeuroMonster Conference</strong>.
+        I will present a poster on collaborative work, led by Jai Bhagat, on <strong>SAEs for neural data</strong> at the <strong>Conference on the Mathematics of Neuroscience and AI</strong>.
       </p>
     </article>
   </div>
