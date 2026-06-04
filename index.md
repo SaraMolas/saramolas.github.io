@@ -27,7 +27,7 @@
   padding: 1rem 1.1rem;
   border: 1px solid #ddd;
   border-radius: 14px;
-  background: #f7f7fb;
+  background: #f4faff;
 }
 
 .news-item {
@@ -47,7 +47,7 @@
   margin-bottom: 0.25rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #666;
+  color: #2f6f8f;
 }
 
 .news-item p {
@@ -68,18 +68,20 @@ My background is in systems and computational neuroscience, where I completed a 
 
   <div class="news-scroll">
     <article class="news-item">
+      <time datetime="2026-06">June 2026</time>
+      <p>
+        I will present a poster on collaborative work, led by Jai Bhagat, on <strong>SAEs for neural data</strong> at the <strong>Conference on the Mathematics of Neuroscience and AI</strong> in Rome.
+      </p>
+    </article>
+    
+    <article class="news-item">
       <time datetime="2026-04">April 2026</time>
       <p>
         I received research funding from <strong>Coefficient Giving</strong> to support my independent research on mechanistic interpretability and compositional generalization.
       </p>
     </article>
 
-    <article class="news-item">
-      <time datetime="2026-06">June 2026</time>
-      <p>
-        I will present a poster on collaborative work, led by Jai Bhagat, on <strong>SAEs for neural data</strong> at the <strong>Conference on the Mathematics of Neuroscience and AI</strong>.
-      </p>
-    </article>
+    
   </div>
 </section>
 
