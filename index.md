@@ -56,7 +56,7 @@
 </style>
 
 
-I study how internal representations emerge in biological and artificial neural systems.
+I study how complex neural systems represent information and implement computations, using methods from computational neuroscience and mechanistic interpretability.
 
 My background is in systems and computational neuroscience, where I completed a PhD studying how spatial and contextual information is encoded by biological neurons. I am now focusing on mechanistic interpretability and representation learning in artificial neural networks, supported by Coefficient Giving funding.
 
@@ -84,11 +84,12 @@ My background is in systems and computational neuroscience, where I completed a 
   </div>
 </section>
 
-**Current focus**
-- Mechanistic interpretability of deep learning models  
-- Compositional generalization in diffusion models
-- Understanding feature representation in artificial neural networks
-
+**Current interests**
+- Mechanistic interpretability
+- Representation learning and generalization
+- Computational neuroscience
+- AI safety
+  
 Currently based in London, UK. 
 Email: <saramolas18@gmail.com> 
 
