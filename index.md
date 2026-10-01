@@ -70,7 +70,7 @@ My background is in systems and computational neuroscience, where I completed a 
     <article class="news-item">
       <time datetime="2026-09">September 2026</time>
       <p>
-        My paper on Compositional Generalization in a Diffusion model ([**PDF**](/assets/Compositional_generalization_diffusion_model.pdf) has been accepted at the NeurIPS 2026 On symmetry and geometry of neural representations workshop.
+        My paper on Compositional Generalization in a Diffusion model ([PDF](assets/Compositional_generalization_diffusion_model.pdf) has been accepted at the NeurIPS 2026 On symmetry and geometry of neural representations workshop.
       </p>
     </article>
     
