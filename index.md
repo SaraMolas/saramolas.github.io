@@ -66,6 +66,14 @@ My background is in systems and computational neuroscience, where I completed a 
   </div>
 
   <div class="news-scroll">
+
+    <article class="news-item">
+      <time datetime="2026-09">September 2026</time>
+      <p>
+        My paper on Compositional Generalization in a Diffusion model ([**PDF**](/assets/Compositional_generalization_diffusion_model.pdf) has been accepted at the NeurIPS 2026 On symmetry and geometry of neural representations workshop.
+      </p>
+    </article>
+    
     <article class="news-item">
       <time datetime="2026-06">June 2026</time>
       <p>
@@ -76,7 +84,7 @@ My background is in systems and computational neuroscience, where I completed a 
     <article class="news-item">
       <time datetime="2026-04">April 2026</time>
       <p>
-        I received funding from <strong>Coefficient Giving</strong> to support my career transition period into AI safety.
+        I received funding from <strong>Coefficient Giving</strong> to support my independent research in AI safety.
       </p>
     </article>
 
