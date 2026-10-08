@@ -2,6 +2,22 @@
 
 My work spans systems neuroscience and mechanistic interpretability. Unified by an interest in how structured representations emerge in complex systems, I've worked on a range of research projects from analyzing spatial and contextual encoding in hippocampal circuits in the brain to probing feature superposition and training dynamics in neural networks.
 
+## Where does a diffusion model learn to generalise?
+
+NeurIPS 2026 - Symmetry and Geometry of Neural Representations Workshop
+
+Combining familiar features in unseen is a key capability of generative models. But what changes inside a model when it acquires this compositional generalization ability?
+
+I studied this question in a conditional diffusion model trained on images varying in shape, colour, and size, with half of the possible combinations withheld during training. The model first learned the training combinations, then gradually became able to generate the novel ones.
+
+By tracking internal representations and swapping network blocks between earlier and later training checkpoints, I traced this transition to specific parts of the decoder. Transplanting just two decoder blocks from the later model into the earlier one recovered 93% of the performance gap on unseen combinations. In these layers, steering feature vectors also selectively changed the target attributes of the generated images without affecting the other features.
+
+These findings suggest that, in this model, compositional generalisation depends on localised changes in how downstream layers represent and learn to render familiar features.
+
+<img src="assets/diffusion_generalization_patching_web.png" style="width:100%; max-width:740px;">
+
+*Schematic of the weight patching experiment: transplanting the last two decoder blocks from the generalized to the earlier pre-generalization checkpoint allowed the model to generalize, generating unseen combinations of training features*.
+
 ## [Applying SAEs to biological neurons](https://openreview.net/pdf?id=cPpMl7Y2y3)
 
 NeurIPS 2025 – Data on the Brain & Mind Workshop
