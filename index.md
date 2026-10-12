@@ -99,6 +99,6 @@ My background is in systems and computational neuroscience, where I completed a 
 - AI safety
   
 Currently based in London, UK. 
-Email: <saramolas18@gmail.com> 
+Email: <sara.molasmedina@gmail.com> 
 
 [Explore my research](research) · [CV](assets/CV_MolasMedina.pdf) · [Contact](contact) 
