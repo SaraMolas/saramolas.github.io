@@ -1,8 +1,12 @@
+---
+title: Research
+---
+
 # My research trajectory
 
 My work spans systems neuroscience and mechanistic interpretability. Unified by an interest in how structured representations emerge in complex systems, I've worked on a range of research projects from analyzing spatial and contextual encoding in hippocampal circuits in the brain to probing feature superposition and training dynamics in neural networks.
 
-## Where does a diffusion model learn to generalise?
+## Where does a diffusion model learn to generalise? {#diffusion-generalisation}
 
 NeurIPS 2026 - Symmetry and Geometry of Neural Representations Workshop
 
@@ -18,7 +22,7 @@ These findings suggest that, in this model, compositional generalisation depends
 
 *Schematic of the weight patching experiment: transplanting the last two decoder blocks from the generalized to the earlier pre-generalization checkpoint allowed the model to generalize, generating unseen combinations of training features*.
 
-## [Applying SAEs to biological neurons](https://openreview.net/pdf?id=cPpMl7Y2y3)
+## [Applying SAEs to biological neurons](https://openreview.net/pdf?id=cPpMl7Y2y3) {#saes-biological-neurons}
 
 NeurIPS 2025 – Data on the Brain & Mind Workshop
 
@@ -28,7 +32,7 @@ We introduced NLDisco, a sparse autoencoder-based pipeline to uncover interpreta
 
 *An overview of sparse encoder–decoder architectures used to uncover interpretable latent structure: basic sparse encoding (b), hierarchical nested latent segmentation (c), and the addition of temporal transformer blocks for sequence modeling (d).*
 
-## [Compressed computation is not computation in superposition](https://openreview.net/pdf?id=iVeOIeHDP1)
+## [Compressed computation is not computation in superposition](https://openreview.net/pdf?id=iVeOIeHDP1) {#compressed-computation}
 
 NeurIPS 2025 - Mechanistic Interpretability Workshop
 
@@ -38,7 +42,7 @@ When we benchmark models, performance alone doesn’t guarantee we understand ho
 
 *Original model architecture from Braun et al. [2025] on the left, and our simpler equivalent model on the right. The labels for our (new) model are y = ReLU(x) + Mx. The matrix M mixes other inputs x_j into the label y_i. Thus the MLP needs to learn both the ReLU term, and the mixing term.*
 
-## [Place Cells Distinguish Visually Identical Rooms](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851)
+## [Place Cells Distinguish Visually Identical Rooms](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851) {#identical-rooms}
 
 During my PhD, I studied how hippocampal “place cells” (GPS neurons) represent space in a virtual environment composed of four rooms arranged A–B–B–C, where the two middle rooms were visually identical but located in different positions in the environment.
 
@@ -52,7 +56,7 @@ These results show that hippocampal spatial representations integrate both local
 
 *Illustrative example of spiking activity in the A–B–B–C virtual track. Each row shows spikes from one example neuron as the mouse moves along the track. While some cells fire similarly in both visually identical B rooms, others differentiate between them, reflecting sensitivity to global position rather than purely local cues.*
 
-## [Biological neurons that "count" rooms](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851)
+## [Biological neurons that "count" rooms](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851) {#counting-rooms}
 
 In the same multi-room virtual task, I identified neurons that were active at corresponding positions across all four rooms, despite differences in room identity. Rather than encoding the uniqueness of each room, these cells appeared to track structural regularities across repeated segments of the environment.
 
@@ -64,7 +68,7 @@ This pattern resembles previously reported “lap-counting” cells in sequentia
 
 *Each neuron fires at a similar relative position within every room, but with different activity levels across rooms. This pattern suggests that these cells encode both local spatial position and the repeated structure of the environment.*
 
-## [Attention modulates spatial representations](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851)
+## [Attention modulates spatial representations](https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851) {#attention-spatial}
 
 While analyzing place cell recordings, I encountered sessions in which spatial tuning appeared unusually unstable — contradicting decades of robust findings in rodent navigation research.
 

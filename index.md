@@ -1,104 +1,40 @@
-<style>
-.news-box {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  max-width: 720px;
-}
+---
+title: Home
+---
 
-.news-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-}
+<section class="intro" markdown="1">
+I study how neural systems, biological and artificial, represent information and implement computations. After a PhD in systems and computational neuroscience, I now do mechanistic interpretability research on artificial neural networks, funded by Coefficient Giving.
+</section>
 
-.news-header h2 {
-  margin-bottom: 0.5rem;
-}
-
-.news-header span {
-  font-size: 0.85rem;
-  color: #777;
-}
-
-.news-scroll {
-  max-height: 180px;
-  overflow-y: auto;
-  padding: 1rem 1.1rem;
-  border: 1px solid #ddd;
-  border-radius: 14px;
-  background: #f4faff;
-}
-
-.news-item {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-.news-item:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.news-item time {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #2f6f8f;
-}
-
-.news-item p {
-  margin: 0;
-}
-</style>
-
-
-I study how complex neural systems represent information and implement computations, using methods from computational neuroscience and mechanistic interpretability.
-
-My background is in systems and computational neuroscience, where I completed a PhD studying how spatial and contextual information is encoded by biological neurons. I am now focusing on mechanistic interpretability and representation learning in artificial neural networks, supported by Coefficient Giving funding.
-
-**Latest news**
-<section class="news-box">
-  <div class="news-header">
-  </div>
-
+<section class="news">
+  <h2>Latest news</h2>
   <div class="news-scroll">
-
+    {% for item in site.data.news %}
     <article class="news-item">
-      <time datetime="2026-09">September 2026</time>
-      <p>
-        My paper on <strong>Compositional Generalization</strong> in a Diffusion model (<a href="/assets/Compositional_generalization_diffusion_model.pdf">PDF</a>) has been accepted at the <strong>NeurIPS 2026</strong> On symmetry and geometry of neural representations workshop.
-      </p>
+      <time datetime="{{ item.date }}">{{ item.label }}</time>
+      <div>{{ item.text | markdownify }}</div>
     </article>
-    
-    <article class="news-item">
-      <time datetime="2026-06">June 2026</time>
-      <p>
-        I will present a poster on collaborative work, led by Jai Bhagat, on <strong>SAEs for neural data</strong> at the <strong>Conference on the Mathematics of Neuroscience and AI</strong> in Rome.
-      </p>
-    </article>
-    
-    <article class="news-item">
-      <time datetime="2026-04">April 2026</time>
-      <p>
-        I received funding from <strong>Coefficient Giving</strong> to support my independent research in AI safety.
-      </p>
-    </article>
-
-    
+    {% endfor %}
   </div>
 </section>
 
-**Current interests**
-- Mechanistic interpretability
-- Representation learning and generalization
-- Computational neuroscience
-- AI safety
-  
-Currently based in London, UK. 
-Email: <sara.molasmedina@gmail.com> 
-
-[Explore my research](research) · [CV](assets/CV_MolasMedina.pdf) · [Contact](contact) 
+<section class="projects">
+  <h2>Research</h2>
+  <div class="card-grid">
+    {% for p in site.data.projects %}
+    <article class="card theme-{{ p.theme }}">
+      <a class="card-image" href="{{ '/research' | relative_url }}#{{ p.id }}">
+        {% if p.card_figure %}{% include {{ p.card_figure }} %}{% else %}<img src="{{ p.image | relative_url }}" alt="{{ p.alt }}" loading="lazy">{% endif %}
+      </a>
+      <div class="card-body">
+        <p class="card-venue theme-{{ p.theme }}">{{ p.venue }}</p>
+        <h3><a href="{{ '/research' | relative_url }}#{{ p.id }}">{{ p.title }}</a></h3>
+        <p class="card-links">
+          {% if p.paper %}<a href="{{ p.paper | relative_url }}">{{ p.paper_label | default: "Paper" }}</a>{% endif %}
+          <a href="{{ '/research' | relative_url }}#{{ p.id }}">Read more →</a>
+        </p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

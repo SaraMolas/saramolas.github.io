@@ -1,0 +1,13 @@
+# News items on the homepage, newest first. `text` is Markdown.
+
+- date: 2026-09
+  label: September 2026
+  text: My paper on **Compositional Generalization** in a Diffusion model ([PDF](/assets/Compositional_generalization_diffusion_model.pdf)) has been accepted at the **NeurIPS 2026** On symmetry and geometry of neural representations workshop.
+
+- date: 2026-06
+  label: June 2026
+  text: I will present a poster on collaborative work, led by Jai Bhagat, on **SAEs for neural data** at the **Conference on the Mathematics of Neuroscience and AI** in Rome.
+
+- date: 2026-04
+  label: April 2026
+  text: I received funding from **Coefficient Giving** to support my independent research in AI safety.
