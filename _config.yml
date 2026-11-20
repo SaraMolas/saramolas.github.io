@@ -1,12 +1,9 @@
-
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Sara Molas Medina, PhD
-description:  Researcher studying representation and computation across biological and artificial neural systems
-color_scheme: light
-search_enabled: false
+description: Researcher studying representation and computation across biological and artificial neural systems
+email: sara.molasmedina@gmail.com
+location: London, UK
 
+# Links shown in the header navigation
 nav:
   - title: Home
     url: /
@@ -16,3 +13,30 @@ nav:
     url: /assets/CV_MolasMedina.pdf
   - title: Contact
     url: /contact
+
+social:
+  - title: GitHub
+    url: https://github.com/saramolas
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?hl=ca&user=8JhisgsAAAAJ
+  - title: LinkedIn
+    url: https://linkedin.com/in/saramolasmedina
+
+markdown: kramdown
+
+# Every page uses the site's own layout (no external theme)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - assets/readme.md
+  - README.md
+  - serve.sh
+  - scripts

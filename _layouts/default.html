@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% include head.html %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main">
+        {% assign current_path = page.url | remove: '.html' %}
+        {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}"{% if current_path == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap {{ page.main_class }}">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>{{ site.location }} · <a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+      <span>
+        {% for link in site.social %}<a href="{{ link.url }}">{{ link.title }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

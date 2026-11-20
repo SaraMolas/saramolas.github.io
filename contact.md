@@ -1,3 +1,9 @@
+---
+title: Contact
+---
+
+# Contact
+
 Currently based in London, UK
 
 <sara.molasmedina@gmail.com>

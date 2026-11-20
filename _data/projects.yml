@@ -1,0 +1,66 @@
+# Research projects shown as cards on the homepage (image + title only).
+# Order here = order on the page.
+#   title:   short, approachable question shown on the card (the Research page keeps its own headings)
+#   id:      must match the {#id} after the project's heading in research.md ("Read more" jumps there)
+#   card_figure: optional simplified SVG (in _includes/, made by scripts/make_card_figures.py)
+#                shown on the card instead of `image`;
+#                `image` is still the full figure used on the Research page
+#   theme:   ai or brain — sets the colour of the venue tag (terracotta / olive)
+#   paper:   optional link to the paper/thesis; paper_label changes the link text (default "Paper")
+
+- id: diffusion-generalisation
+  title: How does a neural network learn to create images it has never seen?
+  venue: NeurIPS 2026 · Workshop
+  theme: ai
+  image: /assets/diffusion_generalization_patching_web.png
+  card_figure: card-figures/diffusion.svg
+  alt: Schematic of transplanting decoder blocks between diffusion model checkpoints
+  paper: /assets/Compositional_generalization_diffusion_model.pdf
+
+- id: saes-biological-neurons
+  title: Can AI interpretability methods be applied to biological neurons?
+  venue: NeurIPS 2025 · Workshop
+  theme: ai
+  image: /assets/SAE-BioNeuro.png
+  card_figure: card-figures/saes.svg
+  alt: Overview of sparse encoder–decoder architectures applied to neural recordings
+  paper: https://openreview.net/pdf?id=cPpMl7Y2y3
+
+- id: compressed-computation
+  title: Is this neural network really computing in superposition?
+  venue: NeurIPS 2025 · Workshop
+  theme: ai
+  image: /assets/CC-not-CiS.png
+  card_figure: card-figures/compressed-computation.svg
+  alt: Original compressed-computation model next to a simpler equivalent model
+  paper: https://openreview.net/pdf?id=iVeOIeHDP1
+
+- id: identical-rooms
+  title: Can the brain tell apart identical-looking rooms?
+  venue: PhD thesis
+  theme: brain
+  image: /assets/track_spikes_aesthetic.gif
+  card_figure: card-figures/identical-rooms.svg
+  alt: Spiking activity of example neurons along the A–B–B–C virtual track
+  paper: https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851
+  paper_label: Thesis
+
+- id: counting-rooms
+  title: Does the brain count rooms as an animal passes through?
+  venue: PhD thesis
+  theme: brain
+  image: /assets/counting_rooms.png
+  card_figure: card-figures/counting-rooms.svg
+  alt: Neurons firing at the same relative position in every room with different intensities
+  paper: https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851
+  paper_label: Thesis
+
+- id: attention-spatial
+  title: Does paying attention affect how the brain encodes information?
+  venue: PhD thesis
+  theme: brain
+  image: /assets/attention_state_6panel.gif
+  card_figure: card-figures/attention.svg
+  alt: Place cell activity in engaged versus disengaged trials
+  paper: https://qmro.qmul.ac.uk/xmlui/handle/123456789/105851
+  paper_label: Thesis
