@@ -2,6 +2,7 @@
 title: Home
 ---
 
+<div class="home-top">
 <section class="intro" markdown="1">
 I study how neural systems, biological and artificial, represent information and implement computations. After a PhD in systems and computational neuroscience, I now do mechanistic interpretability research on artificial neural networks, funded by Coefficient Giving.
 </section>
@@ -17,6 +18,20 @@ I study how neural systems, biological and artificial, represent information and
     {% endfor %}
   </div>
 </section>
+</div>
+
+<script>
+  (function () {
+    var box = document.querySelector(".news-scroll");
+    if (!box) return;
+    function update() {
+      box.classList.toggle("has-more", box.scrollTop + box.clientHeight < box.scrollHeight - 4);
+    }
+    box.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  })();
+</script>
 
 <section class="projects">
   <h2>Research</h2>

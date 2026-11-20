@@ -149,6 +149,24 @@ main.wrap { padding-top: 3rem; padding-bottom: 4rem; }
   background: var(--primary);
 }
 
+/* ---------- Homepage: intro + news side by side (wide screens) ---------- */
+@media (min-width: 900px) {
+  .home-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    gap: 2.75rem;
+    align-items: start;
+  }
+  .home-top .intro p:first-child { margin-top: 0; }
+  /* start the intro one line lower, level with the "Latest news" heading */
+  .home-top .intro { padding-top: calc(var(--intro-size) * var(--intro-leading)); }
+  .home-top .news h2 { margin-top: 0; font-size: 1.7rem; margin-bottom: 0.7rem; }
+  .home-top .news-scroll { max-height: 200px; padding: 0.85rem 1.1rem; }
+  .home-top .news-item { padding-bottom: 0.75rem; margin-bottom: 0.75rem; }
+  .home-top .news-item p { font-size: 0.88rem; line-height: 1.5; }
+  .home-top + .projects h2 { margin-top: 2.5rem; }
+}
+
 /* ---------- Homepage: news ---------- */
 .news { max-width: var(--text-width); }
 .news-scroll {
@@ -174,6 +192,12 @@ main.wrap { padding-top: 3rem; padding-bottom: 4rem; }
   color: var(--primary-deep);
 }
 .news-item p { margin: 0.25rem 0 0; font-size: 0.95rem; }
+
+/* Scroll cue: fade the bottom edge while more news is below */
+.news-scroll.has-more {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 26px), transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 26px), transparent 100%);
+}
 
 /* ---------- Homepage: project cards ---------- */
 .card-grid {
